@@ -1,0 +1,67 @@
+body {
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.cards {
+    margin: 0 auto;
+    width: 680px;
+}
+
+.john_doe, .jane_doe {
+    display: flex;
+
+    margin: 20px 60px;
+    width: 560px;
+    height: 200px;
+}
+
+.duck {
+    border-right: 10px solid RGBA(85, 99, 146, 1.00);
+}
+
+section {
+    position: relative;
+
+    padding: 20px
+}
+
+.john_doe section {
+    background-color: RGBA(255, 255, 241, 1.00);
+}
+
+.jane_doe section {
+    background-color: RGBA(172, 184, 223, 1.00);
+}
+
+h2 {
+    margin: 0;
+
+    font-size: 28px;
+    font-weight: 100;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+table {
+    margin-top: 25px;
+}
+
+table tr td:nth-child(odd) {
+    font-weight: bold;
+}
+
+table td {
+    width: 100px;
+}
+
+section img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    margin: 20px;
+}
