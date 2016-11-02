@@ -101,3 +101,4 @@ Add your answer to this readme file, commit your changes to this repository.
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
+These are both used to define semantical differences, rather than syntactical. A `<section>` element usually has a separate heading and text that belongs to it. It's content belongs together. Whereas `<article>` refers to a bigger block of text that is one unit. `<section>` can be within an `<article>` `<article>` can be used for content that is allowed to be distributed separately from the rest of the website. (I swear I didn't steal this from w3 schools, but I saw afterwards that they explained it with the exact same wording.) Example: Blog post.
