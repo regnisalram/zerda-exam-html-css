@@ -82,8 +82,11 @@ Add your answer to this readme file, commit your changes to this repository.
 ```
 #### Your answer: [2p]
 The distance between the top-left corner of the body and the yellow box is 56.57px. This is according to the Pythagorean theorem, but I guess my answer should be 40px down and 40px from the left. This is because:
+
 1. There's no padding or margin on the body or any of the divs.
+
 2. Both divs' positions are set to absolute, so their positions are compared to their parent divs.
+
 3. The `.bar` div is within the `.foo` div, therefore their positions add up.
 
 
