@@ -96,6 +96,7 @@ Add your answer to this readme file, commit your changes to this repository.
 
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 #### Your answer: [2p]
+`display: block` blocks out the entire width of the parent element for the element it is set to. It follows the box-model. Example: `<div>` On the other hand, `display: inline` is only as wide as the width of the actual element, therefore several elements can be in one line. Example: `<span>` `display: inline-block` lets us use the best of both: it allows width and height for elements but also allows them to flow next to each other on one line.
 
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
